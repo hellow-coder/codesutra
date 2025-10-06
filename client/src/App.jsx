@@ -1,9 +1,10 @@
 import React from 'react'
+import Login from './pages/authPages/Login'
 
 const App = () => {
   return (
     <div>
-      <h1>hellow</h1>
+     <Login/>
     </div>
   )
 }
