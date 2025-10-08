@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+
+
+:root {
+  --bg: #F3F4F6;
+  --text: #1F2937;
+  --primary: #275EFE;
+  --secondary: #2F71FF;
+  --accent: #EAB308;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+button {
+  background-color: var(--primary);
+  color: var(--text);
+}
+
+
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+* {
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for IE and Edge */
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+}
